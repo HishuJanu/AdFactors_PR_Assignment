@@ -1,0 +1,11 @@
+[data-testid="stHeader"]{
+  background-color: rgba(0,0,0,0);
+}
+
+[data-testid="stToolbar"]{
+  right: 2rem;
+}
+
+.css-k3w14i{
+  font-size: 50px;
+}
