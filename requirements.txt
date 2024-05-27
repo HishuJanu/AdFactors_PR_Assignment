@@ -1,0 +1,5 @@
+matplotlib==3.7.0
+pandas==1.5.2
+Pillow==10.3.0
+streamlit==1.18.1
+wordcloud==1.8.2.2
