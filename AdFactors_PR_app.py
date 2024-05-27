@@ -37,8 +37,7 @@ def plot_word_cloud(df, title, col):
     msg = ' '.join(msg)
     st.set_option('deprecation.showPyplotGlobalUse', False)
     text = WordCloud(width = 750, height = 600, colormap = 'Reds', margin = 0,
-                    max_words = 500, min_word_length = 4, max_font_size = 120,
-                    min_font_size = 15, background_color = "black").generate(msg)
+                    max_words = 500, min_word_length = 4, background_color = "black").generate(msg)
 
     fig = plt.figure()
     plt.title(title, fontsize=15)
