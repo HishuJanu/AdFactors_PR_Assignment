@@ -3,3 +3,6 @@ pandas==1.5.2
 Pillow==10.3.0
 streamlit==1.18.1
 wordcloud==1.8.2.2
+streamlit_option_menu==0.3.2
+nltk==3.8.1
+plotly==5.13.0
